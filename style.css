@@ -1,0 +1,385 @@
+header{
+    padding:40px 0;
+    background:#ffa801;
+}
+.menu{
+
+}
+.menu ul{
+
+}
+.menu ul li a{
+color:black!important;
+}
+.menu ul li:last-child a{
+padding-right:0 !important;
+margin-right:0 !important;
+}
+
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+color:white!important;
+}
+/*col*/
+@media (min-width:320px) and (max-width:575.98px){
+    .menu ul li a{
+        text-align: right;
+        font-size:16px!important;
+    }
+}
+/*sm*/
+@media (min-width:576px) and (max-width:767.98px){
+    .menu ul li a{
+        text-align: right;
+        font-size:17px!important;
+    }
+}
+/*medi */
+
+@media (min-width:768px) and (max-width:991.98px){
+    .menu ul li a{
+        text-align: right;
+        font-size:18px!important;
+    }
+}
+
+/*extra large*/
+@media (min-width:992px) and (max-width:1199.98px){
+    .menu ul li a{
+        text-align: right;
+     
+    }
+}
+/*extra extra large*/
+@media (min-width:1200px) and (max-width:1400px){
+    .menu ul li a{
+        text-align: right;
+       
+    }
+}   
+
+
+/*slider start*/
+.slider{
+    padding-bottom: 50px;
+    background-color:#ffa801;
+}
+.s_content{
+margin-top:110px;
+}
+.s_content h1 {
+    font-size: 33px;
+    font-weight: 500;
+}
+.s_content h2{
+    font-size: 22px;
+    font-weight: 450;
+    margin: 22px 0 30px;
+}
+.s_content p{
+    margin-bottom: 30px;
+}
+.s_icon li{
+margin-right:30px!important;
+}
+
+.s_icon i{
+font-size:35px;
+
+
+}
+.custom_ind{
+    bottom: -38px;
+}
+.custom_ind li{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: #160e0e;
+}
+
+/*col*/
+@media (min-width:320px) and (max-width:575.98px){
+    header{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .slider{
+        padding-bottom: 35px;
+    }
+    .s_content {
+        margin-top: 10px;
+    }
+    .s_content h1{
+ margin:0 0 20px;
+    }
+    .s_content h2{
+        margin:0 0 20px;
+    }
+    .s_content p{
+        margin:0 0 20px;
+    }
+    .s_content ul{
+        margin-bottom:20px;
+    }
+    .s_icon{
+        margin-bottom: 25px;
+    }
+    .custom_ind {
+        bottom: -40px;
+    }
+    .custom_ind li{
+        width:10px;
+        height:10px;
+    }
+    .s_content h1{
+        font-size:23px;
+    }
+    .s_content h2{
+     font-size:18px;
+    }
+}
+/*sm*/
+@media (min-width:576px) and (max-width:767.98px){
+    header{
+        padding:15px 0;
+    }
+    .slider{
+        padding:30px 0 40px;
+    }
+    .s_content {
+        margin-top: 20px;
+    }
+    .s_content h1{
+        font-size:25px;
+    }
+
+    .s_content h2{
+     font-size:19px;
+    }
+    .s_content ul{
+        margin-bottom:35px;
+       }
+}
+/*medi */
+
+@media (min-width:768px) and (max-width:991.98px){
+    header{
+        padding:20px 0px;
+    }
+    .s_content{
+        margin-top:30px;
+        }
+.s_content h1{
+    font-size:27px;
+}
+.s_content h2{
+ font-size:20px;
+}
+.s_content ul{
+    margin-bottom:50px!important;
+}
+ .custom_ind {
+            bottom: -50px;
+        }
+}
+
+/*extra large*/
+@media (min-width:992px) and (max-width:1199.98px){
+
+}
+/*extra extra large*/
+@media (min-width:1200px) and (max-width:1400px){
+  
+}
+
+
+/*slider end*/
+
+/*sevice start*/
+.service{
+    padding:100px 0 130px;
+}
+.service_top{
+    margin-bottom:55px;
+}
+.service_top h1{
+font-size:33px;
+font-weight: bold;
+color:#131353;
+}
+.service_top p {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: 25px;
+    color: gray;
+}
+.single{
+margin-bottom:50px;
+}
+.ser_icon{
+font-size:50px;
+
+}
+
+.ser_text{
+    margin-top: 12px;
+
+}
+.ser_text h1{
+font-size:26px;
+
+}
+.ser_text p{
+color:gray;
+}
+
+
+@media (min-width:320px) and (max-width:575.98px){
+    .service {
+        padding: 50px 0 40px;
+    }
+    .service_top {
+        margin-bottom: 40px;
+    }
+    .single {
+        margin-bottom: 30px;
+    }
+    .service_top h1{
+    font-size:25px;
+}
+.service_top p{
+    font-size:16px;
+    letter-spacing: 0px;
+}
+    .ser_text{
+        text-align: center;
+    }
+    .service {
+    padding: 50px 0 40px;
+}
+    
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+
+    .service {
+        padding: 80px 0 70px;
+    }
+    
+    .single {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:992px) and (max-width:1100px){
+    .service {
+        padding: 90px 0 90px;
+    }
+}
+/*service end*/
+
+/*contact start*/
+.contact {
+    background: #000;
+    padding: 60px 0 100px;
+}
+.yellow{
+    color:#f1c40f!important;
+}
+
+.p_b_0{
+    margin-bottom:0!important;
+}
+form.form_class {
+    margin-bottom: 50px;
+    padding: 10px 0px;
+}
+.form_class input{
+height:50px;
+}
+
+button.btn {
+    margin-left: 11px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 33px;
+    background-color:#f1c40f;
+    height:50px;
+    transition:0.3s cubic-bezier(0, 0, 0, 0.98);
+    -webkit-transition:0.3s cubic-bezier(0, 0, 0, 0.98);
+    -moz-transition:0.3s cubic-bezier(0, 0, 0, 0.98);
+}
+button.btn:hover{
+    background-color:white;
+    color:gray;
+}
+@media (min-width:320px) and (max-width:575.98px){
+    button.btn {
+        width:100%;
+        margin-left:0;
+        margin-top:15px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    form.form_class{
+        margin-bottom:0!important;
+    }
+    .form_class input{
+        height:40px;
+    }
+    button.btn {
+        margin-left: 1px;
+         font-size: 16px;
+        font-weight: 450;
+        padding: 0px 9px;
+        height:40px;
+    }
+}
+/*contact end*/
+/*footer start*/
+.footer{
+background-color:black;
+color:white;
+}
+
+.footer .links ul{
+
+}
+.footer .links ul li{
+    list-style:none;
+}
+@media (min-width:320px) and (max-width:575.98px){
+    .info {
+        padding: 0 36px;
+        margin-bottom: 20px;
+    }
+    .info h5{
+        font-size:17px;
+    }
+    .links {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    
+    .info h5{
+        font-size:18px;
+    }
+    .footer .info {
+        padding: 0 86px;
+    }
+    
+    .footer .links {
+        margin: 25px 50px;
+    }
+}
+
+/*footer end*/
