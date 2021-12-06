@@ -243,7 +243,7 @@ color:gray;
 
 @media (min-width:320px) and (max-width:575.98px){
     .service {
-        padding: 75px 0 40px;
+        padding: 100px 0 40px;
     }
     .service_top {
         margin-bottom: 40px;
